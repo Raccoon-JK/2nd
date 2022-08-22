@@ -1,10 +1,20 @@
-{
+*{
   list-style: none;
   text-decoration: none;
   border-collapse: collapse;
   margin: 0px;
   padding: 0px;
   color: black;
+}
+
+h1 {
+  font-size: 48px;
+  /*font-weight: 100;*/
+}
+
+.contents1{
+  font-size: 20px;
+  /*font-weight: lighter;*/
 }
 
 .intro{
@@ -28,10 +38,11 @@
   margin-top: 24px;
 }
 
-.searchArea>form>input{
+.searchArea > form > input{
   border: none;
   width:220px;
   height:40px;
+  background: rgba(0, 0, 0, 0.0);
   color:white;
   padding-left:10px;
 }
@@ -39,8 +50,6 @@
 .searchArea > form > span{
   width:220px;
   color:white;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 .nav{
@@ -55,5 +64,16 @@
 }
 
 .nav > li > a{
-  color:black;
+  color:white;
+}
+
+.intro_text{
+width:100%;
+margin:231px auto 231px auto;
+text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h4{
+  color:white;
 }
