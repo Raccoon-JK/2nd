@@ -17,6 +17,10 @@ h1 {
   /*font-weight: lighter;*/
 }
 
+.result{
+  font-size: 24px;
+}
+
 .intro{
   background-image: url("똘이2.jpg");
   width:100%;
@@ -64,7 +68,33 @@ h1 {
 }
 
 .nav > li > a{
-  color:white;
+  color:black;
+  font-size:17px;
+}
+
+.amount{
+  position: relative;
+  top:-60px;
+  display: flex;
+  width:1280px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.amount > li{
+  flex: 1;
+  height: 132px;
+}
+
+.amount > li > div {
+  text-align: center;
+  margin-top: 37px;
+  height: 57px;
+}
+
+.amount > li:not(:last-child) > div{
+  border-right:1px solid #E1E1E1;
 }
 
 .intro_text{
