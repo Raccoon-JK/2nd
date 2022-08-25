@@ -17,6 +17,15 @@ h1 {
   /*font-weight: lighter;*/
 }
 
+.contents2{
+  /* font-size: */
+}
+
+.contents3{
+  font-size: 14px;
+  font-weight: 100;
+}
+
 .contents1_bold{
   font-size: 18px;
   font-weight: bold;
@@ -149,9 +158,25 @@ h1 {
 }
 
 .icons > li > .icon_img{
-  margin-top: 36px;
+  margin-top: 30px;
 }
 
 .icons > li:not(:last-child){
   margin-right: 20px;
+}
+
+.icons .contexts2 {
+  width: 240px;
+  margin:auto;
+  letter-spacing: -1px;
+}
+
+.more{
+  width: 100px;
+  height: 30px;
+  background: #2F7AF4;
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+  margin:25px auto;
 }
