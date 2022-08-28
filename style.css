@@ -40,6 +40,8 @@ h1 {
   background-image: url("똘이2.jpg");
   width:100%;
   height:600px;
+  background-repeat: no-repeat;
+  background-position:center center;
 }
 
 .header{
@@ -114,7 +116,7 @@ h1 {
 
 .intro_text{
   width:100%;
-  margin:231px auto 231px auto;
+  margin:170px auto 170px auto;
   text-align: center;
 }
 
@@ -217,12 +219,12 @@ h1 {
   width: 100%;
   height: 400px;
   background-image: url("똘이12.jpg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position:center center;
 }
 
 .main_text2 > ul{
-  display: flex;
+  display: grid;
   padding-top: 138px;
 }
 
