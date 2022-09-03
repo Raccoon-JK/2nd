@@ -7,6 +7,11 @@
   color: black;
 }
 
+/* @media(max-width:800px){
+  #grid{
+    display: block;
+}
+*/
 h1 {
   font-size: 48px;
   /*font-weight: 100;*/
@@ -200,10 +205,11 @@ h1 {
 }
 
 .service{
-  width: 1280px;
   display:flex;
-  margin: 49px auto;
+  width: 1280px;
+  margin: 48px auto;
   height: 427px;
+  text-align:center;
 }
 
 .service > .contents2 {
@@ -263,4 +269,9 @@ footer > div:first-child {
 footer > div:last-child {
   flex:9;
   color: #fff;
+}
+
+ @media(max-width:800px){
+  #grid{
+    display: block;
 }
