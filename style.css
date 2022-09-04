@@ -271,7 +271,8 @@ footer > div:last-child {
   color: #fff;
 }
 
- @media(max-width:800px){
+/* @media(max-width:800px){
   #grid{
     display: block;
 }
+*/
